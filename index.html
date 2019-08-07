@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey Form</title>
+</head>
+
+<body>
+
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">survey form for project</p>
+
+  <form action="#" id="survey-form">
+    <!-- text entry -->
+    <label for="name" id="name-label">*Name:</label><input id="name" type="text" name="name" placeholder="Enter your name" required>
+    <!-- email entry -->
+    <label for="email" id="email-label">*E-mail:</label><input id="email" type="email" name="email" placeholder="Enter your e-mail" required>
+    <!-- number entry -->
+    <label for="age" id="number-label">*Age:</label><input id="number" type="number" min="0" max="150" name="age" placeholder="Enter your age" required>
+    <!-- dropdown box-->
+    <label id="dropdown-label " for="dropdown">Current position</label><select id="dropdown" class="dropdown" name="current-position">
+      <option disabled value>Select Option</option>
+      <option value="student">Student</option>
+      <option value="full-time">Full time</option>
+      <option value="part-time">Part time</option>
+      <option value="unemplyed">Unemployed</option>
+      <option value="other">Other</option>
+    </select>
+    <!-- radio buttons -->
+    <label for="">How likely is it you would reccomend to a friend</label>
+    <label>Definitley<input type="radio" name="radio-buttons" value="1"></label>
+    <label>Maybe<input type="radio" name="radio-buttons" value="2"></label>
+    <label>Unlikely<input type="radio" name="radio-buttons" value="3"></label>
+    <!-- check boxes -->
+    <label for="checkboxes">Lorem ipsum dolor sit amet.</label>
+    <label for="a">a<input id="a" type="checkbox" name="check-boxes" value="a"></label>
+    <label for="b">b<input id="b" type="checkbox" name="check-boxes" value="b"></label>
+    <label for="c">c<input id="c" type="checkbox" name="check-boxes" value="c"></label>
+    <label for="d">d<input id="d" type="checkbox" name="check-boxes" value="d"></label>
+    <label for="e">e<input id="e" type="checkbox" name="check-boxes" value="b"></label>
+<!-- textarea -->
+    <label for="textarea">Lorem ipsum dolor sit amet.</label>
+      <textarea id="textarea" name="textarea" rows="8" cols="80" placeholder="Lorem ipsum dolor sit amet."></textarea>
+<!-- submit button -->
+      <button id="submit" type="submit">submit</button>
+
+  </form>
+
+
+</body>
+
+</html>
