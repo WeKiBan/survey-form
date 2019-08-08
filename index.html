@@ -12,11 +12,11 @@
 
 <body>
 
-  <h1 id="title">Survey Form</h1>
+  <h1 id="title">Customer Feedback</h1>
 
   <div id="form-container">
 
-    <p id="description">survey form for project</p>
+    <p id="description">Please take a minute to fill in this survey and help us improve our services</p>
 
     <form action="#" id="survey-form">
 
@@ -53,15 +53,15 @@
       <!-- dropdown box-->
       <div class="container">
         <div class="labels">
-          <label id="dropdown-label " for="dropdown">Current position:</label>
+          <label id="dropdown-label " for="dropdown">How did you hear about us?:</label>
         </div>
         <div class="inputs">
           <select class="dropdown" name="current-position">
-            <option disabled value>Select Option</option>
-            <option value="student">Student</option>
-            <option value="full-time">Full time</option>
-            <option value="part-time">Part time</option>
-            <option value="unemplyed">Unemployed</option>
+            <option  value="" disabled selected>Select an option</option>
+            <option value="From an advertisment">From an advertisment</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Search engine">Search engine</option>
+            <option value="Friends">From a friend</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -70,11 +70,11 @@
       <!-- radio buttons -->
       <div class="container">
         <div class="labels">
-          <label for="">How likely is it you would reccomend to a friend:</label>
+          <label for="">How likely is it you would reccomend us to a friend?</label>
         </div>
         <div class="inputs">
           <ul class="lists">
-            <li><label><input type="radio" name="radio-buttons" value="1">Definitley</label></li>
+            <li><label><input type="radio" name="radio-buttons" value="1">Definitely</label></li>
             <li><label><input type="radio" name="radio-buttons" value="2">Maybe</label></li>
             <li><label><input type="radio" name="radio-buttons" value="3">Unlikely</label></li>
           </ul>
@@ -84,15 +84,15 @@
       <!-- second dropdown -->
       <div class="container">
         <div class="labels">
-          <label id="dropdown-label " for="dropdown">Lorem ipsum dolor:</label>
+          <label id="dropdown-label " for="website-type">What type of website do you need?</label>
         </div>
         <div class="inputs">
-          <select class="dropdown" name="current-position">
-            <option disabled value>Select Option</option>
-            <option value="student">Student</option>
-            <option value="full-time">Full time</option>
-            <option value="part-time">Part time</option>
-            <option value="unemplyed">Unemployed</option>
+          <select class="dropdown" name="website-type">
+            <option  value="" disabled selected>Select an option</option>
+            <option value="Buisness">Buisness</option>
+            <option value="Shop">Online shop</option>
+            <option value="Blog">Blog</option>
+            <option value="Portfolio">Portfolio</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -100,15 +100,15 @@
         <!-- check boxes -->
         <div class="container">
           <div class="labels">
-            <label for="checkboxes">Lorem ipsum dolor sit amet:</label>
+            <label for="checkboxes">What is your budget?</label>
           </div>
           <div class="inputs">
             <ul class="lists">
-              <li> <label for="a"><input id="a" type="checkbox" name="check-boxes" value="a">a</label></li>
-              <li><label for="b"><input id="b" type="checkbox" name="check-boxes" value="b">b</label></li>
-              <li> <label for="c"><input id="c" type="checkbox" name="check-boxes" value="c">c</label></li>
-              <li><label for="d"><input id="d" type="checkbox" name="check-boxes" value="d">d</label></li>
-              <li><label for="e"><input id="e" type="checkbox" name="check-boxes" value="b">e</label></li>
+              <li> <label for="a"><input id="a" type="checkbox" name="check-boxes" value="a">$100 - $500</label></li>
+              <li><label for="b"><input id="b" type="checkbox" name="check-boxes" value="b">$500 - $1000</label></li>
+              <li> <label for="c"><input id="c" type="checkbox" name="check-boxes" value="c">$1000 - $1500</label></li>
+              <li><label for="d"><input id="d" type="checkbox" name="check-boxes" value="d">$1500 - $2000</label></li>
+              <li><label for="e"><input id="e" type="checkbox" name="check-boxes" value="b">$2500 - $3000</label></li>
             </ul>
           </div>
         </div>
@@ -116,10 +116,10 @@
         <!-- textarea -->
         <div class="container">
           <div class="labels">
-            <label for="textarea">Lorem ipsum dolor sit amet.</label>
+            <label for="textarea">Do you have any comments or feedback on our service?</label>
           </div>
           <div class="inputs">
-            <textarea id="textarea" name="textarea" placeholder="Lorem ipsum dolor sit amet."></textarea>
+            <textarea id="textarea" name="textarea" placeholder="Enter your comment here....."></textarea>
           </div>
         </div>
 

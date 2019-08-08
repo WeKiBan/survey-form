@@ -16,10 +16,19 @@ font-family: 'Montserrat', sans-serif;
 color: #4E4E50;
 }
 
+#description{
+  width: 80%;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+
+}
+
 #form-container{
   margin-bottom: 200px;
   background-color: #F7F7F7;
-  border: solid 5px #C2EABD;
+  border: solid 5px #4E4E50;
   width: 75%;
   max-width: 800px;
   margin:auto;
@@ -38,7 +47,7 @@ color: #4E4E50;
 
 .dropdown{
   height:25px;
-  width:60%;
+  width:70%;
 }
 
 .labels{
@@ -77,9 +86,9 @@ border-radius: 2px;
   margin:10px;
   height:30px;
   width:80px;
-  color:#8E8E8F;
+  color: #9a1750;
   border-radius: 5px;
-  background-color: #C2EABD;
+  background-color: #F7F7F7;
   border: solid 2px #8E8E8F;
   font-size: 1.5rem;
 }
