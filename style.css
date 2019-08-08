@@ -8,14 +8,20 @@ body{
   color: #4E4E50;
   text-align: center;
   font-size: 1.5rem;
-  font-family: sans-serif;
+  font-family:  'Merriweather', sans-serif;
 }
 
+h1{
+font-family: 'Montserrat', sans-serif;
+color: #4E4E50;
+}
 
 #form-container{
+  margin-bottom: 200px;
   background-color: #F7F7F7;
-  border: solid;
+  border: solid 5px #C2EABD;
   width: 75%;
+  max-width: 800px;
   margin:auto;
   border-radius: 5px;
 }
@@ -71,7 +77,9 @@ border-radius: 2px;
   margin:10px;
   height:30px;
   width:80px;
+  color:#8E8E8F;
   border-radius: 5px;
-  background-color: #E3E2DF;
+  background-color: #C2EABD;
+  border: solid 2px #8E8E8F;
   font-size: 1.5rem;
 }
