@@ -1,91 +1,88 @@
-html{
+html {
   font-size: 10px;
   line-height: 1.5;
 }
 
-body{
+body {
   background-color: #E3AFBC;
   color: #4E4E50;
   text-align: center;
   font-size: 1.5rem;
-  font-family:  'Merriweather', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
-h1{
-font-family: 'Montserrat', sans-serif;
-color: #4E4E50;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4E4E50;
 }
 
-#description{
+#description {
   width: 80%;
-  margin:auto;
-  margin-top:30px;
+  margin: auto;
+  margin-top: 30px;
   margin-bottom: 30px;
   text-decoration: underline;
-
 }
 
-#form-container{
+#form-container {
   margin-bottom: 200px;
   background-color: #F7F7F7;
   border: solid 5px #4E4E50;
   width: 75%;
   max-width: 800px;
-  margin:auto;
+  margin: auto;
   border-radius: 5px;
 }
 
-.input-box{
-  height:20px;
-  width:80%;
+.input-box {
+  height: 20px;
+  width: 80%;
   border-radius: 5px;
 }
 
-.input-box:hover, .dropdown:hover, #textarea:hover, #submit:hover{
+.input-box:hover, .dropdown:hover, #textarea:hover, #submit:hover {
   border-color: #9a1750;
 }
 
-.dropdown{
-  height:25px;
-  width:70%;
+.dropdown {
+  height: 25px;
+  width: 70%;
 }
 
-.labels{
-  display:inline-block;
-  width:40%;
+.labels {
+  display: inline-block;
+  width: 40%;
   text-align: right;
   vertical-align: top;
 }
 
-.inputs{
+.inputs {
   display: inline-block;
-  width:40%;
+  width: 40%;
   text-align: left;
   margin-left: 10px;
-
 }
 
-.lists{
+.lists {
   list-style: none;
-  padding:0px;
-  margin:0px;
-
+  padding: 0px;
+  margin: 0px;
 }
 
-.container{
-  padding:15px 0;
+.container {
+  padding: 15px 0;
 }
 
-#textarea{
-width: 80%;
-height: 48px;
-border-radius: 2px;
+#textarea {
+  width: 80%;
+  height: 48px;
+  border-radius: 2px;
 }
 
-#submit{
-  margin:10px;
-  height:30px;
-  width:80px;
+#submit {
+  margin: 10px;
+  height: 30px;
+  width: 80px;
   color: #9a1750;
   border-radius: 5px;
   background-color: #F7F7F7;
